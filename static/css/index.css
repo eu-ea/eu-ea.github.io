@@ -332,6 +332,26 @@ body {
   border-radius: 2px;
 }
 
+/* Carousel Dots - override bulmaCarousel default */
+.carousel .slider-pagination {
+  position: static !important;
+  margin-top: 1rem;
+}
+
+.carousel .slider-pagination .slider-page {
+  background: #fff !important;
+  border: 2px solid #2563eb !important;
+  box-shadow: none !important;
+  width: 10px !important;
+  height: 10px !important;
+}
+
+.carousel .slider-pagination .slider-page.is-active,
+.carousel .slider-pagination .slider-page:hover {
+  background: #2563eb !important;
+  transform: none !important;
+}
+
 /* Content Improvements */
 .content.has-text-justified {
   font-size: 1.1rem;
